@@ -1,0 +1,7 @@
+#This is a comment line
+Welcome
+to  The
+world
+of
+#The comment should be removed
+Programming

@@ -1,24 +1,18 @@
-
-from Graphics import Rectangle as r,Circle
-from Graphics.Dgraphics import Cuboid,Sphere
-
+from Graphics import rectangle as r,circle
+from Graphics.Dgraphics import cuboid,sphere
 print("Rectangle")
-l=int(input('Length\n'))
-b=int(input('Breadth\n'))
-print("Area of Rectangle :",r.area(l,b))
-print("Perimeter of Rectangle :",r.perimeter(l,b))
+print("Area of Rectangle :",r.area)
+print("Perimeter of Rectangle :",r.perimeter)
 
 print("\nCircle")
-r=int(input('Radius\n'))
-print("Area of Circle :",Circle.area(r))
-print("Perimeter of Circle :",Circle.perimeter(r))
+print("Area of Circle :",circle.area)
+print("Circumstance of Circle :",circle.perimeter)
+
 
 print("\nCuboid")
-l=int(input('Length\n'))
-print("Area of Cuboid :",Cuboid.area(l))
-print("Volume of Cuboid :",Cuboid.volume(l))
+print("Area:",cuboid.area)
+print("Volume:",cuboid.volume)
 
 print("\nSphere")
-r=int(input('Radius\n'))
-print("Area of Sphere :",Sphere.area(r))
-print("Volume of Sphere :",Sphere.volume(r))
+print("Area of Sphere :",sphere.area)
+print("Volume of Sphere :",sphere.volume)
